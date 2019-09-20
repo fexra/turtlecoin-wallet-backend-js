@@ -7,6 +7,7 @@
   "scripts": {
     "prepublish": "npm run-script build",
     "build": "./node_modules/.bin/tsc",
+    "webpack": "webpack",
     "test": "npm run-script build && node dist/tests/tests.js",
     "test-all": "npm run-script build && node dist/tests/tests.js --do-performance-tests",
     "style": "./node_modules/.bin/tslint -c tslint.json 'lib/**/*.ts'",
@@ -33,8 +34,11 @@
     "@types/pbkdf2": "^3.0.0",
     "@types/request-promise-native": "^1.0.16",
     "colors": "^1.3.3",
+    "copy-webpack-plugin": "^5.0.4",
     "tslint": "^5.19.0",
     "typedoc": "^0.15.0",
-    "typedoc-plugin-no-inherit": "^1.1.10"
+    "typedoc-plugin-no-inherit": "^1.1.10",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   }
 }
