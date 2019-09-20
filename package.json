@@ -24,7 +24,7 @@
     "object-sizeof": "^1.5.1",
     "pbkdf2": "^3.0.17",
     "turtlecoin-rpc": "^1.0.2",
-    "turtlecoin-utils": "https://github.com/turtlecoin/turtlecoin-utils#development",
+    "turtlecoin-utils": "https://github.com/turtlecoin/turtlecoin-utils#self_load_wasm_in_browser",
     "typescript": "^3.6.2"
   },
   "devDependencies": {
